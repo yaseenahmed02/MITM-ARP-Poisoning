@@ -437,8 +437,3 @@ Alice sends the message containing 'Yaseen'.
 While Bob is listening on port 9090, he receives the message as 'AAAAAA', indicating the successful interception and alteration by the MITM attack, which changed 'Yaseen' to 'AAAAAA'.
 
 During the MITM attack, messages from Alice containing 'Yaseen' were intercepted and altered to 'AAAAAA' before reaching Bob, demonstrating the attacker's ability to modify data in transit. Bob, unaware of the interception, received the altered messages as if they were sent directly from Alice.
-
-
-```python
-
-```
